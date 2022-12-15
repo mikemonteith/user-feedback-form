@@ -21,8 +21,8 @@ export default class TextCommentsScreen extends Screen {
   }
 
   render() {
-    const yesLabel = 'What happened to make you visit the NHS website today?';
-    const noLabel = 'What were you looking for?';
+    const yesLabel = 'Why were you looking for this?';
+    const noLabel = 'What were you looking to find?';
     const label = this.getInitialQuestionResponse() ? yesLabel : noLabel;
     const html = template({
       label,
